@@ -107,7 +107,7 @@ Every instruction has a predicate register field **Rp** — this is what makes t
 ## 🏗️ Datapath — Stage by Stage
 
 <details>
-<summary><b>📌 IF — Instruction Fetch</b></summary>
+<summary><b> IF — Instruction Fetch</b></summary>
 
 ```
   R30 (PC) ──► Instruction Memory (1KB ROM)
@@ -128,7 +128,7 @@ Every instruction has a predicate register field **Rp** — this is what makes t
 </details>
 
 <details>
-<summary><b>📌 ID — Instruction Decode (most complex stage)</b></summary>
+<summary><b> ID — Instruction Decode (most complex stage)</b></summary>
 
 ```
   32-bit instruction
@@ -151,7 +151,7 @@ Every instruction has a predicate register field **Rp** — this is what makes t
 </details>
 
 <details>
-<summary><b>📌 EX — Execute (ALU)</b></summary>
+<summary><b> EX — Execute (ALU)</b></summary>
 
 ```
   ALU Input 1 ← forwarded Rs value
@@ -171,7 +171,7 @@ Every instruction has a predicate register field **Rp** — this is what makes t
 </details>
 
 <details>
-<summary><b>📌 MEM — Memory Access</b></summary>
+<summary><b> MEM — Memory Access</b></summary>
 
 ```
   ALU Result → memory address (lower 10 bits used for 4KB RAM)
@@ -186,7 +186,7 @@ Every instruction has a predicate register field **Rp** — this is what makes t
 </details>
 
 <details>
-<summary><b>📌 WB — Write Back</b></summary>
+<summary><b> WB — Write Back</b></summary>
 
 ```
   3-to-1 Mux controlled by WB_Sel:
