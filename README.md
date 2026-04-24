@@ -13,6 +13,9 @@
 </div>
 
 ---
+## Logisim DataPath of Piplined Proccessor
+<img width="4631" height="1861" alt="Piplined_proccessor_Datapath" src="https://github.com/user-attachments/assets/d8814c98-d449-497a-8832-fe545f6dbb7d" />
+
 
 ## 📋 Abstract
 
