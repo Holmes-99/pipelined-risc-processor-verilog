@@ -1,4 +1,3 @@
-// Bismillah
 module RegFile(
     input clk, rst, ActualRegWrite, 
     input [4:0] rs, rt, rp, rd,
