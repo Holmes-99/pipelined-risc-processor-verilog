@@ -1,4 +1,3 @@
-// Bismillah
 module StallUnit(
     input MemRead_EX,               
     input [1:0] forward_rs,        
