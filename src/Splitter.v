@@ -1,4 +1,4 @@
-// Bismillah
+// 
 module Splitter(
     input [31:0] Inst,
     output [4:0]  OPCode, Rp, Rd, Rs, Rt,        
