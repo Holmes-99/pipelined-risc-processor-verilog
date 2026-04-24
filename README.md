@@ -355,8 +355,7 @@ vsim testbench
 | **Course** | ENCS4370 — Computer Architecture |
 | **University** | Birzeit University 🇵🇸 |
 | **Semester** | Fall 2025/2026 |
-| **Team** | Shatha Abualrob · Razan Shalabi · Lara Daifallah |
-| **Instructor** | Dr. Ayman Hroub |
+
 
 ---
 
